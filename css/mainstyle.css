@@ -1,0 +1,28 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  max-width: 960px;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+.header {
+
+}
+
+.header-box {
+  display: flex;
+}
+.header-logo {
+  flex: auto;
+}
+
+.main {
+  display: flex;
+}
+
+/* to show the social Media Logos */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
