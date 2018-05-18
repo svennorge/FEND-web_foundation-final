@@ -1,28 +1,70 @@
 * {
   border: 1px solid red;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
   max-width: 960px;
   background-color: lightblue;
-  box-sizing: border-box;
-}
-.header {
-
 }
 
-.header-box {
+img {
+  max-width: 100%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 0em;
+}
+
+h3 {
+  display: block;
+  font-size: 1em;
+  margin: 0em;
+}
+
+.header-container {
   display: flex;
+  display: -webkit-flex;
 }
 .header-logo {
-  flex: auto;
+max-width: 20%;
+max-height: auto;
+}
+
+.header-content{
+  max-width: 80%;
+  flex:auto;
+  text-align: right;
 }
 
 .main {
-  display: flex;
+  
 }
 
+.main-block {
+  display: block;
+  display: -webkit-flex;
+}
+.main-images {
+  display: block;
+}
+
+/* TODO:  */
 /* to show the social Media Logos */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
+}
+
+.zocial-facebook {
+  color: #4863ae;
+}
+
+.zocial-linkedin {
+  color: #0083a8;
 }
