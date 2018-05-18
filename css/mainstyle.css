@@ -1,14 +1,14 @@
 * {
   border: 1px solid red;
   -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
-  max-width: 960px;
+  max-width: 100%;
   background-color: lightblue;
 }
 
@@ -30,33 +30,59 @@ h3 {
 
 .header-container {
   display: flex;
-  display: -webkit-flex;
-}
-.header-logo {
-max-width: 20%;
-max-height: auto;
+  /* display: -webkit-flex; */
 }
 
-.header-content{
+.header-logo {
+  max-width: 20%;
+  max-height: auto;
+}
+
+.header-content {
   max-width: 80%;
-  flex:auto;
+  flex: auto;
   text-align: right;
 }
 
-.main {
-  
+.main h2 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .main-block {
   display: block;
-  display: -webkit-flex;
+  /* display: -webkit-flex; */
+  width: 100%;
 }
-.main-images {
-  display: block;
+.main-block p {
+  overflow: auto;
+  max-height: 3em;
+  max-width: auto;
+}
+
+/* .minor-images{
+  display: flex;
+} */
+
+.painting-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.painting-image {
+  border: 1px solid black;
+  max-width: 20%;
+}
+.painting-text {
+  max-width: 80%;
 }
 
 /* TODO:  */
+
 /* to show the social Media Logos */
+
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
@@ -67,4 +93,11 @@ max-height: auto;
 
 .zocial-linkedin {
   color: #0083a8;
+}
+
+.copyright {
+  /* TODO:  */
+display: block;
+text-align: center;
+
 }

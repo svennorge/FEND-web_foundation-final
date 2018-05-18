@@ -5,6 +5,7 @@ of Udacity.
 # Worklog
 
 16.05.18 Start of Coding based on requirements
+17.05.18 Placed Images and worked on the box model
 
 ## Main Structure
 Responsive design using 3 media queries based on css files
