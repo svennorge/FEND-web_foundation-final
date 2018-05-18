@@ -97,6 +97,13 @@ h3 {
 
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
+
+
+}
+
+.social{
+  display: flex;
+  align-content: center;
 }
 
 .zocial-facebook {
