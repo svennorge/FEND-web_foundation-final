@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body {
   max-width: 100%;
-  background-color: lightblue;
+  background-color: #f5c46b;
 }
 
 img {
@@ -30,12 +30,14 @@ h3 {
 
 .header-container {
   display: flex;
-  /* display: -webkit-flex; */
+  display: -webkit-flex;
+  border-bottom: 1px solid #9A650D;
 }
 
 .header-logo {
   max-width: 20%;
   max-height: auto;
+  margin: 10px;
 }
 
 .header-content {
@@ -44,11 +46,19 @@ h3 {
   text-align: right;
 }
 
+.header-content h1 {
+  border-bottom: 2px solid #9A650D;
+}
+
+.header-content{
+  margin: 20px 20px 0px 0px;
+}
 .main h2 {
   text-align: left;
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
+  border-bottom: 2px solid #9A650D;
 }
 
 .main-block {
@@ -58,7 +68,7 @@ h3 {
 }
 .main-block p {
   overflow: auto;
-  max-height: 3em;
+  max-height: 10%;
   max-width: auto;
 }
 
@@ -73,10 +83,12 @@ h3 {
 
 .painting-image {
   border: 1px solid black;
-  max-width: 20%;
+  max-width: 33%;
 }
 .painting-text {
-  max-width: 80%;
+  max-width: 67%;
+  overflow: auto;
+  max-height: 10%;
 }
 
 /* TODO:  */

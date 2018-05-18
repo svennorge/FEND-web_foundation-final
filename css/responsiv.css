@@ -1,5 +1,20 @@
+/* The Responsive Design should work at least with the following devices
+
+Desktop width 960px
+Mobile: Google Nexus 5
+Tablet: Apple iPad */
+
 @media only screen and (max-width: 420px) {
-  body {background-color: violet;}
+  body {background-color: #ee82ee;}
+  .header-logo{margin: 0;}
+  .header-content{margin: 0 0 0 10px;}
+  .main-block p {overflow: auto; max-height: 3em;max-width: 100vh;font-size: 14px}
+  .main h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #9A650D;
+  }
 }
 @media only screen and (max-width: 720px) {
   .minor-images {flex-flow: wrap;}
@@ -41,6 +56,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {background-color: lightblue}
+  .main-block p {font-size: 20px;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -51,5 +67,5 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body {background-color: orange; max-width: 1200px}
+  body {background-color: #f5c46b; max-width: 1200px}
 }
