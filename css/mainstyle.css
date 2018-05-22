@@ -72,10 +72,6 @@ h3 {
   max-width: auto;
 }
 
-/* .minor-images{
-  display: flex;
-} */
-
 .painting-container {
   display: flex;
   flex-direction: row;
@@ -87,8 +83,10 @@ h3 {
 }
 .painting-text {
   max-width: 67%;
-  overflow: auto;
+  overflow: 5em;
   max-height: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* TODO:  */
