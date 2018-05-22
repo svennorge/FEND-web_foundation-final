@@ -50,9 +50,10 @@ h3 {
   border-bottom: 2px solid #9A650D;
 }
 
-.header-content{
+.header-content {
   margin: 20px 20px 0px 0px;
 }
+
 .main h2 {
   text-align: left;
   font-size: 2em;
@@ -66,6 +67,7 @@ h3 {
   /* display: -webkit-flex; */
   width: 100%;
 }
+
 .main-block p {
   overflow: auto;
   max-height: 10%;
@@ -80,7 +82,10 @@ h3 {
 .painting-image {
   border: 1px solid black;
   max-width: 33%;
+  background-size: cover;
+  background-image: url(/images/redball_new);
 }
+
 .painting-text {
   max-width: 67%;
   overflow: 5em;
@@ -89,17 +94,11 @@ h3 {
   margin-right: 10px;
 }
 
-/* TODO:  */
-
-/* to show the social Media Logos */
-
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
-
-
 }
 
-.social{
+.social {
   display: flex;
   align-content: center;
 }
@@ -113,8 +112,6 @@ h3 {
 }
 
 .copyright {
-  /* TODO:  */
-display: block;
-text-align: center;
-
+  display: block;
+  text-align: center;
 }

@@ -57,6 +57,7 @@ Tablet: Apple iPad */
 @media only screen and (min-width: 768px) {
   body {background-color: lightblue}
   .main-block p {font-size: 20px;}
+  .painting-container{width: 100vw;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
