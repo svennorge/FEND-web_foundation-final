@@ -77,6 +77,7 @@ h3 {
 .painting-container {
   display: flex;
   flex-direction: row;
+  width: 33vw;
 }
 
 .painting-image {
