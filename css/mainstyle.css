@@ -75,6 +75,8 @@ h3 {
 }
 
 .painting-container {
+  /* flex only when on mobile and when small then under the image
+  if width is not accepatable then text right to image */
   display: flex;
   flex-direction: row;
   width: 33vw;
@@ -82,9 +84,7 @@ h3 {
 
 .painting-image {
   border: 1px solid black;
-  max-width: 33%;
-  background-size: cover;
-  background-image: url(/images/redball_new);
+  max-width: 100%;
 }
 
 .painting-text {
