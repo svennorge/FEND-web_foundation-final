@@ -67,7 +67,7 @@ Tablet: Apple iPad */
 @media only screen and (min-width: 960px) {
   body {background-color: yellow; max-width: 960px;margin: 0 auto;}
   .minor-images {display: flex; display: -webkit-flex;}
-  .painting-container{display:initial;}
+  .painting-container{display:iinitial;}
   .painting-image{width: 95%;margin-left: 5px; margin-right: 5px;}
   .painting-text{width: 95%;margin-left: 5px; margin-right: 5px;}
   .painting-text h3{font-size: 2em; font-weight: bold;height: 2em;}
