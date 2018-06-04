@@ -79,16 +79,17 @@ h3 {
   if width is not accepatable then text right to image */
   display: flex;
   flex-direction: row;
-  width: 33.3vw;
+  width: 100vw;
+  /* width: 33.3vw; old value*/
 }
 
 .painting-image {
   border: 1px solid black;
-  max-width: 50%;
+  width: 35vw;
 }
 
 .painting-text {
-  max-width: 67%;
+  max-width: 65vw;
   overflow: 5em;
   max-height: 10%;
   margin-left: 10px;

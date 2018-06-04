@@ -12,9 +12,8 @@ Tablet: Apple iPad */
   .header-content{margin: 0 0 0 10px;}
   .main-block p {overflow: auto; max-height: 3em;max-width: 100vh;font-size: 14px}
   .minor-images{width: 100vw;}
-  /* .painting-container{width: 100vw;} */
   .painting-image{width: 33vw;}
-  .painting-text{max-width: auto;}
+  .painting-text{width: 67vw;}
   .main h2 {
     font-size: 1em;
     font-weight: bold;
