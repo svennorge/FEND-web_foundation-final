@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="css/mainstyle.css">
   <link rel="stylesheet" href="css/responsiv.css">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-  <style type="text/css">
-  </style>
   <script src="js/main.js">
   </script>
   <title>Svens Art</title>
@@ -37,7 +35,14 @@
       <!-- TODO:resize image based on viewport to 100vw all the time, but take small/medium/large-->
       <p>Welcome to my site. I my flexi type I relax while painting in oil. I started practicing in 2016. Mainly I use Talents colours and use faber castel penciles and pastel charlc to prepare my art. Paperwise I only use high quality standards. My Canvas
         is normally prepared with 3 layers of Gesso </p>
-      <img src="images/mondrian_small.jpg" srcset="images/mondrian_small.jpg 500w, images/mondrian_medium.jpg 1000w, images/mondrian_large.jpg 1500w" alt="large Mondrian style Oil Painting picture">
+      <img src="images/mondrian_small.jpg"
+          srcset="images/mondrian_small.jpg 500w,
+          images/mondrian_medium.jpg 1000w,
+                  images/mondrian_large.jpg 1500w"
+          sizes= "(max-width: 500px) 460px,
+                  (max-width: 1000px) 960px,
+                  1500px"
+          alt="large Mondrian style Oil Painting picture">
     </div>
     <div class="main">
       <!-- TODO:  Class Main is wrong-->
@@ -48,7 +53,7 @@
       <div class="painting-container">
         <div class="painting-image">
           <img src="images/greenball_small.jpg" srcset="images/greenball_small.jpg 1000w,
-                images/greenball_medium.jpg 1500w" alt="Green ball Image">
+                images/greenball_medium.jpg 1500w" sizes="(min-width: 800px) 50vw, 100vw" alt="Green ball Image">
         </div>
         <div class="painting-text">
           <h3>Oil dry painting technique</h3>

@@ -6,72 +6,129 @@ Tablet: Apple iPad */
 
 @media only screen and (max-width: 420px) {
   body {
-    background-color: #ee82ee;
-    max-width: 420px;}
-  p {font-size: 12px}
-  h3 {font-size: 16px; font-weight: bold;}
-  .header-logo{margin: 0;}
-  .header-content{margin: 0 0 0 10px;}
+    /* background-color: #ee82ee; */
+    max-width: 420px;
+  }
+  p {
+    font-size: 12px
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .header-content {
+    margin: 0 0 0 10px;
+  }
   .main-block p {
     overflow: auto;
     max-height: 3em;
     /* TODO: check the next values 100vh?? */
     max-width: 100vh;
-    font-size: 14px}
-  .minor-images{width: 100vw;}
-  .painting-container{
+    font-size: 14px
+  }
+  .minor-images {
+    width: 100vw;
+  }
+  .painting-container {
     display: flex;
     display: -webkit-flex;
-    flex-direction: row;}
-  .painting-image{width: 33.33vw;}
-  .painting-text{width: 66.67vw;}
-  .painting-text p{
+    flex-direction: row;
+  }
+  .painting-image {
+    width: 33.33vw;
+  }
+  .painting-text {
+    width: 66.67vw;
+  }
+  .painting-text p {
     overflow: auto;
-    max-height: 4em;}
+    max-height: 4em;
+  }
   .main h2 {
     font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 1px solid #9A650D;
   }
 }
+
 @media only screen and (min-width: 420px) {
-  p {font-size: 14px}
-    .painting-container{display: flex;display: -webkit-flex;
-}
-
-@media only screen and (min-width: 600px) {
-  .painting-container{
-    width: 100vw;
+  p {
+    font-size: 14px
+  }
+  .painting-container {
     display: flex;
-    flex-direction: row;}
-  .painting-text p{
-    overflow: none;
-    max-height: none;}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  body {background-color: purple}
-  .main-block p {font-size: 20px;}
-  .painting-container{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;}
-  .images{flex-flow: wrap;}
-  /* TODO: check this value again 20% sounds ??? */
-  .images img {max-width: 20%}
-}
-
-/* Large devices (laptops/desktops, 9960px and up) */
-@media only screen and (min-width: 960px) {
-  body {background-color: yellow; max-width: 960px;margin: 0 auto;}
-  .minor-images {display: flex; display: -webkit-flex;}
-  .painting-container{display:iinitial;}
-  .painting-image{width: 95%;margin-left: 5px; margin-right: 5px;}
-  .painting-text{width: 95%;margin-left: 5px; margin-right: 5px;}
-  .painting-text h3{font-size: 2em; font-weight: bold;height: 2em;}
-  .painting-text p{font-size: 20px}
-
-
-}
+    display: -webkit-flex;
+  }
+  @media only screen and (min-width: 600px) {
+    .painting-container {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+    }
+    .painting-text p {
+      overflow: initial;
+      max-height: initial;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* body {background-color: purple} */
+    .main-block p {
+      font-size: 20px;
+    }
+    .painting-container {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+    }
+    .images {
+      flex-flow: wrap;
+    }
+    /* TODO: check this value again 20% sounds ??? */
+    .images img {
+      max-width: 20%
+    }
+  }
+  /* Large devices (laptops/desktops, 960px and up) */
+  @media only screen and (min-width: 960px) {
+    body {
+      /* background-color: yellow;  */
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .minor-images {
+      display: flex;
+      display: -webkit-flex;
+    }
+    .painting-container {
+      display: initial;
+    }
+    .painting-image {
+      width: 95%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .painting-text {
+      width: 95%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .painting-text h3 {
+      font-size: 2em;
+      font-weight: bold;
+      height: 2em;
+    }
+    .painting-text p {
+      font-size: 20px;
+    }
+  }
+  /* Super Large devices (laptops/desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
