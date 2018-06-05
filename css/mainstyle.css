@@ -1,0 +1,113 @@
+* {
+  /* TODO: border just for testing */
+  /* border: 1px solid red; */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 960px;
+  background-color: #f5c46b;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 0em;
+}
+
+h3 {
+  display: block;
+  font-size: 1em;
+  margin: 0em;
+}
+
+.header-container {
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 1px solid #9A650D;
+}
+
+.header-logo {
+  max-width: 20%;
+  margin: 10px;
+}
+
+.header-content {
+  max-width: 80%;
+  flex: auto;
+  text-align: right;
+}
+
+.header-content h1 {
+  border-bottom: 2px solid #9A650D;
+}
+
+.header-content {
+  margin: 20px 20px 0px 0px;
+}
+
+.main h2 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #9A650D;
+}
+
+.main-block {
+  display: block;
+  width: 100%;
+}
+
+.main-block p {
+  overflow: auto;
+  max-height: 10%;
+}
+
+.painting-container {
+  /* flex only when on mobile and when small then under the image
+  if width is not accepatable then text right to image */
+  width: 100%;
+}
+
+.painting-image {
+  width: 33.33%;
+  margin-left: 10px;
+}
+.painting-text {
+  width: 66.67%;
+  max-height: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.zocial {
+  display: flex;
+  display: -webkit-flex;
+  align-content: center;
+}
+
+.zocial-facebook {
+  color: #4863ae;
+}
+
+.zocial-linkedin {
+  color: #0083a8;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+}
