@@ -34,6 +34,9 @@ h3 {
   display: -webkit-flex;
   border-bottom: 1px solid #9A650D;
 }
+.header-me{
+  /* TODO:  */
+}
 
 .header-logo {
   max-width: 20%;

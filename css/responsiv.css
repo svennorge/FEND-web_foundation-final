@@ -131,4 +131,14 @@ Tablet: Apple iPad */
       max-width: 1200px;
       margin: 0 auto;
     }
+    p {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
   }
