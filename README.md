@@ -23,3 +23,14 @@ one javascript file
 4 Oil Painting Images with at least  different variances each
 1 big image with 3 different sizings to optimize the loading behaviour
 1 own logo
+
+### /css
+has 2 files
+1. main.css for all standards
+2. responsive.css for all responsive topics
+
+### /js
+as of now empty 
+
+### / images
+all images in all variances to be used via css and index.html
