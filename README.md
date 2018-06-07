@@ -14,6 +14,8 @@ responsive website.
 
 23.05.18 Some cleanups and adjustments before vacation
 
+04.06.18 BAck after vacation
+
 ## Main Structure
 Responsive design using 3 media queries based on css files
 one index.html file
