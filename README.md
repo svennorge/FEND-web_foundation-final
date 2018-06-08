@@ -32,5 +32,8 @@ has 2 files
 ### /js
 as of now empty 
 
-### / images
+### /images
 all images in all variances to be used via css and index.html
+
+### /logos
+Sven Custome Made Art Blog Logo  
