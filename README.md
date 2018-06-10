@@ -14,7 +14,9 @@ responsive website.
 
 23.05.18 Some cleanups and adjustments before vacation
 
-04.06.18 BAck after vacation
+04.06.18 Back after vacation
+
+10.06.18 3rd Submit. No change as review discovered a missing logo. I was only able to find type
 
 ## Main Structure
 Responsive design using 3 media queries based on css files
@@ -30,7 +32,7 @@ has 2 files
 2. responsive.css for all responsive topics
 
 ### /js
-as of now empty 
+as of now empty
 
 ### /images
 all images in all variances to be used via css and index.html
