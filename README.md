@@ -16,7 +16,11 @@ responsive website.
 
 04.06.18 Back after vacation
 
-10.06.18 3rd Submit. No change as review discovered a missing logo. I was only able to find type
+08.06.18 Submited
+
+09.06.18 Puzzled with feedback
+
+11.06.18 3rd Submit. No change only name of logo as review discovered a missing logo. I was only able to find type
 
 ## Main Structure
 Responsive design using 3 media queries based on css files
